@@ -25,6 +25,19 @@
  - User can update a reflection.
  - User delete a reflection.
  
+ ## Getting Started
+ 
+ Below are instructions to clone and run the reflections app in your local server.
+ 
+ **First off, you must have node/npm installed. Install the latest node version [here](https://nodejs.org/en/download/) Not to worry, the npm package comes along with the node package**
+ 
+ ### Installation
+ 
+ 1. Clone this repository by running this on your terminal: `git clone https://github.com/ikechuku/reflections.git`
+ 2. Navigate to the project's directory with: `cd reflections`
+ 3. Run `npm install` to install dependencies
+ 4. Run  `npm run start:dev` to start the server on a local host
+ 5. Test the routes with [Postman](https://www.getpostman.com/)
  
 ## API 
 
