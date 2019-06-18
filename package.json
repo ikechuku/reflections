@@ -6,8 +6,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.0.0",
+    "env": "0.0.2",
     "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
+    "pg": "^7.11.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
@@ -19,9 +24,10 @@
     "babel-watch": "^7.0.0",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
+    "make-runnable": "^1.3.6",
     "mocha": "^6.1.4"
   },
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel server.js --out-dir build",
     "dev-start": "babel-watch server.js"
