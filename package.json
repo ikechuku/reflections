@@ -19,7 +19,7 @@
     "babel-watch": "^7.0.0",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   },
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
